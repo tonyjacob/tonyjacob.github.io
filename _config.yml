@@ -1,0 +1,200 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://tonyjacob.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+baseurl: 
+# /personal-jekyll-theme
+
+# Google tracking id
+
+google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Tony Jacob"
+title: "Tony Jacob"
+description: "Website featuring Tony Jacob and his skills, achievements, work experience and interests."
+keywords: "jacob, tony, personal, jekyll, waterloo, engineering, canada"
+favicon: "/img/tonyjacob_favicon.ico"
+
+################
+# Header layout #
+################
+
+# black-favicon: "/img/logo.ico"
+
+background-img: "../img/tonyjacob_background.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 20
+start-delay: 200
+delete-delay: 2000
+lines: # You can add HTML Tags in the Text
+  - text: "Hi, I am Tony Jacob and welcome to my website!"
+  - text: "Winner of The CIBC Student Achievement Award in Technology."
+  - text: "Runners-up at CIBC's Dragon's Den."
+  - text: "Winner of The 90 second Capstone Design Video Competition."
+
+me-img: "/img/me&cat.png"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app2/android-icon-36x36.png"
+icon-48p: "/img/web-app2/android-icon-48x48.png"
+icon-72p: "/img/web-app2/android-icon-72x72.png"
+icon-96p: "/img/web-app/android-icon-96x96.png"
+icon-144p: "/img/web-app2/android-icon-144x144.png"
+icon-192p: "/img/web-app2/android-icon-192x192.png"
+
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/waterloo_logo.png"
+    date: "June, 2016 - Finally done with school, I think?"
+    description: "BASc Honours Management Engineering, Co-operative Program"
+  - image: "/img/timeline/parkingBoom_logo.png"
+    date: "May, 2015 - Apr, 2016"
+    description: "Built the AirBnB of parking."
+  - image: "/img/timeline/cibc_logo.png"
+    date: "Sept - Dec, 2015"
+    description: "Empowered small business owners to access financial products faster."
+  - image: "/img/timeline/siemens_logo.png"
+    date: "Jan - Apr, 2015"
+    description: "Made the earth greener."
+  - image: "/img/timeline/cpc_logo.png"
+    date: "May - Aug, 2014"
+    description: "Delivered the nation's mail a bit quicker."
+  - image: "/img/timeline/abcGroup_logo.png"
+    date: "Sept - Dec, 2013"
+    description: "Inadvertatnly saved $9,000. Oops.."
+  - image: "/img/timeline/gm_logo.png"
+    date: "Jan - Apr, 2013"
+    description: "Tested secret prototype vehicles in Northern Canada. Shush!"
+  - image: "/img/timeline/canada.png"
+    date: "2010"
+    description: "Moved to Canada."
+  - image: "/img/timeline/world_map.png"
+    date: "1992 - 2010"
+    description: "Lived in India, Bahrain and United Arab Emirates, and attended a grand total of ten schools. Phew!"
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/born.png"
+
+
+###########
+# Contact #
+###########
+
+email: "tonjacob@gmail.com" 
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "Tony Jacob is an awesome person."
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "facebook"
+    url: "https://www.facebook.com/tony.jacob.MAN2016"
+  # - title: "twitter"
+  #   url: "https://twitter.com/"
+  # - title: "github"
+  #   url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+  # - title: "bitcoin"
+  #   url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+  # - title: "rss"
+  #   url: "/feed.xml"
+  - title: "instagram"
+    url: "https://www.instagram.com/tonyjjkb/"
+  - title: "linkedin"
+    url: "https://ca.linkedin.com/in/tonyjjacob"
+
+############
+# 404 page #
+############
+
+404-img: "/img/404_error.png"
+
+##################
+# GPG on Keybase #
+##################
+
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  # Blog: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+# paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji
