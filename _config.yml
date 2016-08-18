@@ -98,7 +98,7 @@ events:
     description: "Built the AirBnB of parking."
   - image: "/img/timeline/cibc_logo.png"
     date: "Sept - Dec, 2015"
-    description: "Empowered small business owners to access financial products faster."
+    description: "Empowered small business owners to access financial products faster and hastle free."
   - image: "/img/timeline/siemens_logo.png"
     date: "Jan - Apr, 2015"
     description: "Made the earth greener."
@@ -107,7 +107,7 @@ events:
     description: "Delivered the nation's mail a bit quicker."
   - image: "/img/timeline/abcGroup_logo.png"
     date: "Sept - Dec, 2013"
-    description: "Inadvertatnly saved $9,000. Oops.."
+    description: "Inadvertently saved $9,000. Oops.."
   - image: "/img/timeline/gm_logo.png"
     date: "Jan - Apr, 2013"
     description: "Tested secret prototype vehicles in Northern Canada. Shush!"
@@ -116,7 +116,7 @@ events:
     description: "Moved to Canada."
   - image: "/img/timeline/world_map.png"
     date: "1992 - 2010"
-    description: "Lived in India, Bahrain and United Arab Emirates, and attended a grand total of ten schools. Phew!"
+    description: "Lived in India, Bahrain and United Arab Emirates, and attended a grand total of six schools. Phew!"
 
 # First image of the Timeline
 
