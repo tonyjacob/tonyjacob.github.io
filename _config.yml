@@ -91,7 +91,7 @@ icon-192p: "/img/web-app2/android-icon-192x192.png"
 
 events:
   - image: "/img/timeline/waterloo_logo.png"
-    date: "June, 2016 - Finally done with school, for now atleast."
+    date: "June, 2016 - Finally done with school, for now at least."
     description: "BASc Honours Management Engineering, Co-operative Program"
   - image: "/img/timeline/parkingBoom_logo.png"
     date: "May, 2015 - Apr, 2016"
