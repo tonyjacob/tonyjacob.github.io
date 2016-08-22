@@ -58,8 +58,9 @@ delete-delay: 2000
 lines: # You can add HTML Tags in the Text
   - text: "Hi, I am Tony Jacob and welcome to my website!"
   - text: "Winner of The CIBC Student Achievement Award in Technology."
-  - text: "Runners-up at CIBC's Dragon's Den."
   - text: "Winner of The 90 second Capstone Design Video Competition."
+  - text: "Runners-up at CIBC's Dragon's Den."
+  
 
 me-img: "/img/me&cat.png"
 
