@@ -1,5 +1,4 @@
-# { Personal } Jekyll Theme
+Hi,
 
-This is a tweaked version of https://github.com/PanosSakkos/personal-jekyll-theme by PanosSakkos.
+This is my attempt at my personal website. Many thanks to PanosSakkos for some of its great features!
 
-All credits go to them and all other parties involved in developing its great features.
